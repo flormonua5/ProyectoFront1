@@ -1,0 +1,364 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    }
+
+    .menu, header h1, header .btn{
+    display: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header i{
+    font-size: 3rem;
+}
+/*primer section*/
+main {
+    display: flex;
+    flex-direction: column;
+}
+main img {
+    width: 80%;
+    position: relative;
+    left: 8%;
+}
+.contenedorPrincipal {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 10vw;
+}
+
+#art {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: space-evenly;
+    align-items: flex-end
+}
+
+h2 {
+    color: #1E1E26;
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.7rem;
+    padding-left: 10%;
+    padding-top:15%; /*para la media query no iria*/
+    text-align: right;
+}
+
+.parrafos {
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 700;
+    width: 90%; /*esta linea y la siguiente en dkp no va*/
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.btn, .more, .GoForIt{
+    background: #8B48BF;
+    border-radius: 50px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 0.5rem;
+    height: 5vh;
+    text-decoration: none;
+    width: 20vw;
+} 
+/*segundo section*/
+.falsoFooter {
+    background-color:#3CDDF3;
+    color: white;
+    
+    height: 25vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contenedorh3{
+    font-size: 1.4rem; 
+    text-align: left;
+    
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+.Lorem {
+    display:none;
+}
+.soloMobile {
+    font-size: 0.8rem;
+    font-weight: 400;
+    
+    padding-left: 10%;
+    padding-right: 15%;
+    width:90%;
+}
+
+/* tercer section*/ 
+
+.contenedorSecundario {
+    background-color: #fafafa;
+    display:flex;
+    flex-direction: column;
+} 
+
+.info {
+    line-height: 1.5rem;
+
+    margin-top: 3%;
+
+    display: flex;
+    flex-direction: column;    
+}
+.contenTituloh5 {
+    background-color: rgb(140, 74, 191, 0.30);
+
+    display: flex;
+    align-items: center;
+    
+    border-radius: 50px 0px 0px 50px;
+    margin-left: 15%;
+}
+
+.numero {
+    align-items: center;
+    background-color:#8B48BF;
+    border-radius: 50px;
+    border: 0;
+    color: white;
+    font-size: 1rem;
+    height: 5vh;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+}
+
+section article h5 {
+    font-size: 0.8rem;
+    padding-left: 6%;
+}
+
+.Donec {
+    color: #B3B2B7;
+    font-size: 0.8rem;
+    padding: 6%;
+    padding-left: 15%;
+}
+
+#Sanyo, #Navarro {
+    display:none;
+}
+
+/*cuarto section*/ 
+.elMejordelMes {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleBOTM {
+    color:#242E53;
+    font-size: 2rem;
+    font-weight: bold;
+
+    margin-bottom: 10%;
+}
+.contenedorCards {
+    display: flex;
+    padding: 5% 5%;
+}
+.Cards {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+}
+
+section div article img {
+    max-width: 20%;
+    max-height: 50%;
+
+    position: absolute;
+    left: 40%;
+    top: 267%;
+    
+    margin-top: 10%;
+}
+section div article h4{
+    position:relative;
+    top: 75px;
+
+    padding-bottom: 15%;
+}
+section div article p{
+    color: #B3B2B7;
+    font-size: 1rem;
+    padding: 5%;
+}
+section button a {
+    color: white;
+    text-decoration: none; 
+    font-size: 0.8rem;
+} 
+
+
+/*Footer*/
+.sectionFooter {
+    background-color:#3CDDF3;
+    color: white;
+    font-size: 1.5rem; 
+    margin-top: 8%;
+
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: 45vh;
+
+}
+
+footer section h3 {
+    width: 55%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.GoForIt {
+    background-color: #232C50;    ;
+    color: white; 
+    }
+.contenedorFooter{ 
+    background-color: #1E1E26;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+}
+.logoyredes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer div img {
+    background-size:cover;
+    max-height: 20%;
+}
+i.fa-brands.fa-bars  {
+    color:#FFFFFF;
+}
+.contenedorNav {
+    display:flex;
+    width: 30%
+}
+.navFooter {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.itemlistaFooter {       
+    color: #FFFFFF;
+    font-size: 0.6rem;
+    font-weight: lighter;
+    line-height: 1rem;
+}
+input {
+    border-radius: 50px;
+    height: 5vh;
+    font-size: 0.7rem;
+}
+.copyright {
+    background-color: #1E1E26;
+}
+footer p{
+    color: #8C8C94;
+    font-size: 0.6rem;
+    
+    position: relative;
+    left: 740px;
+    bottom: 50px;
+}
+
+
+
+
+/*MEDIA QUERY*/
+@media (min-width: 1115px){
+    .menu, header .btn {
+        display: block;
+    }
+    i.fas.fa-bars {
+        display:none; 
+        }
+    header {
+        align-items: center;
+        height: 15vh;
+    }
+    nav.menu {
+        display:flex;
+        height: 5vh;
+    }
+    nav ul{
+        align-items: center;
+        display: flex;
+        font-size: 0.6rem;
+        font-weight: bold;
+        justify-content: space-around;
+        width: 33vw; 
+    } 
+    a {
+        color:black;
+        text-decoration: none;
+    }
+    a:active {
+        color:rgb(249, 249, 249);
+    }
+    /*los pongo solo para desktop porque en el celu estos "efectos" no se ven*/
+    .more:hover{
+        opacity: 70%;
+        color: white;
+    }
+    .btn:hover,.GoForIt:hover {
+        transform: scale(1.2,1.2)
+    } 
+    /*MAIN DESKTOP*/
+    .contenedorPrincipal {
+        height: 60vh;
+        margin: 5vh 5vw;
+
+        justify-content: space-around;
+    }
+        h2 {
+        padding-top:0;
+    }
+    .parrafos {
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 0;    
+    }
+    .btn, .more, .GoForIt{
+        width: 10vw;
+    }
+ /*SEGUNDO SECTION*/
+    
+    .Lorem{
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding-right: 25%;
+    padding-left: 12%;
+}
+
+
+}
+

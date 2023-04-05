@@ -1,0 +1,298 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    }
+    
+    /*para dejar oculto el menu hamburguesa y el h1*/
+    h1, i.fas.fa-bars {
+    display:none; 
+    }
+    header {
+        align-items: center;
+        display: flex;
+        height: 15vh;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .contenedorLogo {
+        background-image: url(../img/logo.svg);
+        background-repeat: no-repeat;
+        height: 5vh;
+        width: 15%;
+    }
+    
+    nav.menu {
+        display:flex;
+        height: 5vh;
+    }
+    nav ul{
+        align-items: center;
+        display: flex;
+        font-size: 0.5rem;
+        font-weight: bold;
+        justify-content: space-around;
+        width: 33vw; 
+    } 
+    a {
+        color:black;
+        text-decoration: none;
+    }
+    a:active {
+        color:rgb(249, 249, 249);
+    }
+    
+    .btn, .more, .GoForIt{
+        background: #8B48BF;
+        border-radius: 50px;
+        border: 0;
+        color: #FFFFFF;        ;
+        font-size: 0.5rem;
+        height: 5vh;
+        text-decoration: none;
+        width: 10vw;
+    } 
+    .more:hover{
+        opacity: 70%;
+        color: white;
+    }
+    .btn:hover,.GoForIt:hover {
+        transform: scale(1.2,1.2)
+    }
+
+    .contenedorPrincipal {
+        display: flex;
+        height: 60vh;
+        justify-content: space-around;
+        margin: 5vh 10vw;
+    }
+    
+    
+    .imagenPrincipal {
+        background-image: url(../img/padel-intro.png);
+        background-repeat: no-repeat;
+        background-size: 100%;  
+        width: 50%;
+    }
+    
+    #art {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        justify-content: space-evenly;
+        align-items: flex-end
+    }
+    
+    h2 {
+        color: #1E1E26;
+        display: flex;
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 2.7rem;
+        padding-left: 10%;
+        text-align: right;
+    } 
+    
+    .parrafos {
+        color: black;
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+    
+    .falsoFooter {
+        background-color: #8B48BF;
+        color: white;
+        display: flex;
+        height: 15vh; 
+        align-items: center;
+    }
+    
+    .contenedorh3{
+        font-size: 1.4rem; 
+        padding-left: 15%;
+        text-align: left;
+        
+    }
+    
+    .contenedorP{
+        display:flex;
+        width: 50%;
+    }
+    
+    .Lorem{
+        
+        font-size: 0.7rem;
+        font-weight: 400;
+        padding-right: 25%;
+        padding-left: 12%;
+    }
+    .numero {
+        align-items: center;
+        background: #8B48BF;
+        border-radius: 50px;
+        border: 0;
+        color: white;
+        display:flex;
+        font-size: 1rem;
+        height: 5vh;
+        justify-content: center;
+        width: 12%;
+    }
+    
+    .contenedorSecundario {
+        background-color: #fafafa;
+        display:flex;
+        flex-wrap: wrap;
+        height: 40vh;
+        justify-content: center;
+    } 
+    
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        
+    }
+    .contenTituloh5 {
+        align-items: center;
+        display: flex;
+        padding-left: 15%;
+        padding-top: 5%;
+    }
+    
+    section article h5 {
+        font-size: 0.8rem;
+        padding-left: 6%;
+    }
+    
+    .Donec {
+        color: #B3B2B7;
+        font-size: 0.8rem;
+        position: relative;
+        left: 30%;
+        width: 65%;
+    }
+
+    .elMejordelMes {
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .titleBOTM {
+        color:#242E53;
+        font-size: 2rem; 
+        font-weight: bolder;
+    }
+    
+    .contenedorCards {
+        display: flex;
+        padding: 5% 3%;
+        height: 42vh;
+    }
+    .Cards{
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+    section div article img {
+        position:relative;
+        top:-20%;
+    }
+    section div article p{
+        color: #B3B2B7;
+        font-size: 0.8rem;
+        padding: 2%;
+    }
+    section div article h4{
+        display: flex;
+        justify-content: center;
+        position:relative;
+        top:-7%;
+    } 
+
+    .sectionFooter {
+        background-color: #8B48BF;
+        color: white;
+        font-size: 1.5rem; 
+        height: 25vh;
+        margin-top: 8%;
+
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer section h3 {
+        width: 35%;
+    }
+    
+    .GoForIt {
+        background-color: white;
+        color: #8B48BF;
+        }
+
+    /*VER ESTILOS DEL FOOTER*/
+    .contenedorFooter{ 
+        background-color: #1E1E26;
+        
+        display: flex;
+        justify-content: space-between;
+        padding: 5% 10%;
+    }
+    .logoyredes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    footer div img {
+        background-size:cover;
+        max-height: 20%;
+    }
+    i {
+        color:#FFFFFF;
+    }
+    .contenedorNav {
+        display:flex;
+        width: 30%
+    }
+    .navFooter {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .itemlistaFooter {       
+        color: #FFFFFF;
+        font-size: 0.6rem;
+        font-weight: lighter;
+        line-height: 1rem;
+    }
+   input {
+        border-radius: 50px;
+        height: 5vh;
+        font-size: 0.7rem;
+   }
+    .copyright {
+        background-color: #1E1E26;
+    }
+    footer p{
+        color: #8C8C94;
+        font-size: 0.6rem;
+        
+        position: relative;
+        left: 740px;
+        bottom: 50px;
+    }
+    
+    @media (max-width: 480px) {
+        .menu {
+            display: none;
+        }
+    }

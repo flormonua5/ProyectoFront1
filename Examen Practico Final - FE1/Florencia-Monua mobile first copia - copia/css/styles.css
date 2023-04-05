@@ -1,0 +1,216 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    }
+
+    .menu, header h1, header .btn{
+    display: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header i{
+    font-size: 3rem;
+}
+/*primer section*/
+main {
+    display: flex;
+    flex-direction: column;
+}
+main img {
+    width: 80%;
+    position: relative;
+    left: 8%;
+}
+.contenedorPrincipal {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 10vw;
+}
+
+#art {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: space-evenly;
+    align-items: flex-end
+}
+
+h2 {
+    color: #1E1E26;
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.7rem;
+    padding-left: 10%;
+    padding-top:15%; /*para la media query no iria*/
+    text-align: right;
+}
+
+.parrafos {
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 700;
+    width: 90%; /*esta linea y la siguiente en dkp no va*/
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.btn, .more, .GoForIt{
+    background: #8B48BF;
+    border-radius: 50px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 0.5rem;
+    height: 5vh;
+    text-decoration: none;
+    width: 20vw;
+} 
+/*segundo section*/
+.falsoFooter {
+    background-color:#3CDDF3;
+    color: white;
+    
+    height: 25vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contenedorh3{
+    font-size: 1.4rem; 
+    text-align: left;
+    
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+.Lorem {
+    display:none;
+}
+.soloMobile {
+    font-size: 0.8rem;
+    font-weight: 400;
+    
+    padding-left: 10%;
+    padding-right: 15%;
+    width:90%;
+}
+
+/* tercer section*/ 
+
+.contenedorSecundario {
+    background-color: #fafafa;
+    display:flex;
+    flex-direction: column;
+} 
+
+.info {
+    line-height: 1.5rem;
+
+    margin-top: 3%;
+
+    display: flex;
+    flex-direction: column;    
+}
+.contenTituloh5 {
+    background-color: rgb(140, 74, 191, 0.30);
+
+    display: flex;
+    align-items: center;
+    
+    border-radius: 50px 0px 0px 50px;
+    margin-left: 15%;
+}
+
+.numero {
+    align-items: center;
+    background-color:#8B48BF;
+    border-radius: 50px;
+    border: 0;
+    color: white;
+    font-size: 1rem;
+    height: 5vh;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+}
+
+section article h5 {
+    font-size: 0.8rem;
+    padding-left: 6%;
+}
+
+.Donec {
+    color: #B3B2B7;
+    font-size: 0.8rem;
+    padding: 6%;
+    padding-left: 15%;
+}
+
+#Sanyo, #Navarro {
+    display:none;
+}
+
+/*cuarto section*/ 
+.elMejordelMes {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleBOTM {
+    color:#242E53;
+    font-size: 2rem;
+    font-weight: bold;
+
+    margin-bottom: 10%;
+}
+.contenedorCards {
+    display: flex;
+    padding: 5% 5%;
+}
+.Cards {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+}
+
+section div article img {
+    max-width: 20%;
+    max-height: 50%;
+
+    position: absolute;
+    left: 40%;
+    top: 267%;
+    
+    margin-top: 10%;
+}
+section div article h4{
+    position:relative;
+    top: 75px;
+
+    padding-bottom: 15%;
+}
+section div article p{
+    color: #B3B2B7;
+    font-size: 1rem;
+    padding: 5%;
+}
+section button a {
+    color: white;
+    text-decoration: none; 
+    font-size: 0.8rem;
+} 
+
+
+
